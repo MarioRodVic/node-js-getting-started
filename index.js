@@ -1,6 +1,8 @@
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
+var request = require("request");
+const email = require("./enviarEmail.js");
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
