@@ -7,8 +7,9 @@ function prueba(){
       }, function(error, response, body) {
         //console.log(body);
         if(body.includes("No disponible.")){
+          email.enviarEmail();
           console.log('no disponible');
-        }else{
+        }else if (body.includes("Vendido y enviado por Amazon")){
             console.log('disponible');
             email.enviarEmail();
             clearInterval(setIntervalId);
