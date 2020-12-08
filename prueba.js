@@ -22,4 +22,4 @@ function intervalFunc() {
     console.log('Cant stop me now!');
   }
   
-  var setIntervalId = setInterval(prueba, 120000);
+  var setIntervalId = setInterval(prueba, 10000);
