@@ -11,7 +11,7 @@ express()
   .get('/', (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
-  function prueba(){
+  /*function prueba(){
     request({
         uri: "https://www.amazon.es/dp/B08H93ZRLL/ref=twister_B08NQWFZ7L?_encoding=UTF8&th=1",
       }, function(error, response, body) {
@@ -34,4 +34,4 @@ function intervalFunc() {
     console.log('Cant stop me now!');
   }
   
-  var setIntervalId = setInterval(prueba, 120000);
+  var setIntervalId = setInterval(prueba, 12000);*/

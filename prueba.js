@@ -1,7 +1,7 @@
 var request = require("request");
 const email = require("./enviarEmail.js");
 
-function prueba(){
+/*function prueba(){
     request({
         uri: "https://www.amazon.es/dp/B08H93ZRLL/ref=twister_B08NQWFZ7L?_encoding=UTF8&th=1",
       }, function(error, response, body) {
@@ -24,4 +24,4 @@ function intervalFunc() {
     console.log('Cant stop me now!');
   }
   
-  var setIntervalId = setInterval(prueba, 120000);
+  var setIntervalId = setInterval(prueba, 120000);*/
